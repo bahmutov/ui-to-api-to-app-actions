@@ -1,14 +1,3 @@
 {
-  "todos": [
-    {
-      "title": "adds a new todo 83378",
-      "completed": false,
-      "id": "3529579974"
-    },
-    {
-      "title": "adds a new todo 62411",
-      "completed": false,
-      "id": "9443718928"
-    }
-  ]
+  "todos": []
 }

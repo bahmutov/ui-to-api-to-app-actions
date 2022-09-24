@@ -1,4 +1,4 @@
-it('adds a new todo', () => {
+it('completes a new todo', () => {
   cy.visit('/')
   // let the application load the data from the server
   cy.get('body').should('have.class', 'loaded')
@@ -6,8 +6,6 @@ it('adds a new todo', () => {
   // generate unique data
   const title = `${Cypress.currentTest.title} ${Cypress._.random(1e5)}`
   cy.get('.new-todo').type(title + '{enter}')
-  cy.contains('.todo', title).should('be.visible')
-  // confirm the todo is preserved on the server
-  cy.reload()
-  cy.contains('.todo', title).should('be.visible')
+  cy.contains('.todo', title).should('be.visible').find('.toggle').click()
+  cy.contains('.todo', title).should('have.class', 'completed')
 })
