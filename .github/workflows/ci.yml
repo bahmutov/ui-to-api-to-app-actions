@@ -16,6 +16,3 @@ jobs:
           build: npm run lint
           # start the application before running Cypress
           start: npm start
-          # pass the grep tag to run only some tests
-          # https://github.com/cypress-io/cypress-grep
-          env: grepTags=@sanity
