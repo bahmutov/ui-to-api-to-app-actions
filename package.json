@@ -21,6 +21,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "cy-spok": "^1.5.2",
     "cypress": "10.8.0",
     "find-cypress-specs": "1.19.0",
     "prettier": "2.7.1",

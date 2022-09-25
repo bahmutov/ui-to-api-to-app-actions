@@ -2,6 +2,8 @@
 
 > Example Cypress tests going from page objects to app actions
 
+Read the blog post [Change E2E Tests From UI To API To App Actions](https://glebbahmutov.com/blog/ui-to-api-to-app-actions/)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2022

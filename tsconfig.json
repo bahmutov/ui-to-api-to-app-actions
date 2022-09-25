@@ -8,7 +8,8 @@
     "allowJs": true,
     "noEmit": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["cypress/**/*.ts", "cypress.config.ts"],
   "ts-node": {
